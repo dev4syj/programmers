@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public int solution(int balls, int share) {
         int minShare = Math.min(share, balls - share);
