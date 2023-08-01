@@ -13,26 +13,8 @@ class Solution {
                 c2++;
                 if (c2 >= cards2.length) c2 = cards2.length - 1;
             }
-            
             else return "No";
         }
-        
-        
-//         HashMap<String, Integer> hm = new HashMap<>();
-//         for (int i = 0; i < cards1.length; i++) hm.put(cards1[i], i);
-//         for (int j = 0; j < cards2.length; j++) hm.put(cards2[j], j);
-
-//         int[] order = new int[goal.length];
-        
-//         for (int k = 0; k < goal.length; k++) {
-//             order[k] = hm.get(goal[k]);
-//         }
-        
-//         int[] sorted = order.clone();
-//         Arrays.sort(sorted);
-        
-//         if (Arrays.equals(order, sorted)) return "Yes";
-         
-            return "Yes";
+        return "Yes";
     }
 }
