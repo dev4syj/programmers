@@ -12,12 +12,13 @@ class Solution {
             int value = hm.get(num);
             list.add(value);
         }
+        
         Collections.sort(list);
         int len = list.size();
         if (len > 1) {
-            System.out.println(list.get(len - 1) + " " + list.get(len - 2));
             if (list.get(len - 1) == list.get(len - 2)) return -1;
         }
+        
         int largest = list.get(len - 1);
         int answer = 0;
         for (int num : hm.keySet()) {
