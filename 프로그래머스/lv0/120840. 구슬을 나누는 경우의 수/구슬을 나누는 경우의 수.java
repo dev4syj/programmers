@@ -1,4 +1,5 @@
 class Solution {
+    
     public int solution(int balls, int share) {
         long result = 1; // overflow 막기 위해 int 대신 사용
         
