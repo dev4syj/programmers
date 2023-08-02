@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
     
     public int 유클리드호제법(int n, int m) {
-        if (n % m == 0) return m;
+        if (m == 0) return n;
         return 유클리드호제법(m, n % m);
     }
     
